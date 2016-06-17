@@ -8,7 +8,7 @@ public class PrintPyramid {
 
 	public static void main(String[] args) {
 
-		    /* for(int i=0;i<5;i++) {
+		     for(int i=0;i<5;i++) {
 		         for(int j=0;j<5-i;j++) {
 		             System.out.print(" ");
 		         }
@@ -16,10 +16,10 @@ public class PrintPyramid {
 		            System.out.print("* ");
 		        }
 		        System.out.println();  
-		    }*/
+		    }
 		     
-		     int arr[] = {2,3,7};
-		     System.out.println("Increment = "+ ++arr[2]);
+//		     int arr[] = {2,3,7};
+//		     System.out.println("Increment = "+ ++arr[2]);
 
 
 	}
