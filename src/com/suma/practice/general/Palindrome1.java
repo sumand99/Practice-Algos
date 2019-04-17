@@ -31,6 +31,10 @@ public class Palindrome1 {
 			String str = "A man, a plan, a canal: Panama";
 	 
 			System.out.println(isValidPalindrome(str));
+			
+			 str = "race a car";
+			 
+			System.out.println(isValidPalindrome(str));
 		}
 	
 }

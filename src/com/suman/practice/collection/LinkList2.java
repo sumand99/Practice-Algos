@@ -150,5 +150,21 @@ public class LinkList2
         ptr = ptr.getLink();
         System.out.print(ptr.getData()+ "\n");
     }
+    
+    
+    public void printReverse(Node node){
+    	
+    	if(null==node.getLink()){
+    		System.out.println("Data " + node.getData());
+    		return;
+    	}else{
+    		int data = node.getData();
+    		printReverse(node);
+    		System.out.println("Data "+ data);
+    	}
+    	
+    
+    
+    }
 }
 
