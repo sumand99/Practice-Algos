@@ -16,7 +16,7 @@ public class MergeSort {
 	 
 	    public static void main(String a[]){
 	         
-	        int[] inputArr = {45,23,11,89,77,98,4,28,65,43};
+	        int[] inputArr = {45,23,11,89,77,98,4,28,65	};
 	        System.out.println("Before Sorting ->" +Arrays.toString(inputArr));
 	        MergeSort mms = new MergeSort();
 	        mms.sort(inputArr);

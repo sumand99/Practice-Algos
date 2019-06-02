@@ -46,7 +46,7 @@ public class Isomorphic {
 		
 	}
 	public static void main(String...a){
-		System.out.println(isIsomorphic("foo","dod"));
+		System.out.println(isIsomorphic("foo","one"));
 	}
 
 }
